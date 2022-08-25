@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  li {
+    list-style: none;
+  }
+ body {
+    font-family: 'Lato', sans-serif;
+    background-color: #565555;
+    background-attachment: fixed;
+    background-size: auto;
+    display: block;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    color: #ffffff;
+  }
+  p {text-indent: 1em;
+  }
+  .container {
+    padding: 0 16px;
+  }
+  .titulo {
+    font-size: 28px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .perfil {
+    max-width: 550px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  
+  .box {
+    background: #565555;
+    padding: 2rem;
+    box-shadow: 1px 1px 26px rgb(235, 200, 178);
+    border-radius: 50px;
+    margin-top: 1rem;
+  }
+  .box h2 {
+    font-weight: normal;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .perfil-pic {
+    border-radius: 50%;
+    margin: 0 auto 1rem auto;
+    }
+  
+  .perfil p {
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+   
+  .redes-sociais {
+    display: flex;
+    justify-content: center;
+  }
+  .redes-sociais li {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .Beauty > p {
+    max-width: 955px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .Luxo > p {
+    max-width: 955px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+ /* .portifolio ul{
+   margin-top: 1rem;
+  }
+  
+  .portifolio li{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    text-align: center;
+    gap: 1rem;
+    color: #fff;
+  }
+  /*.portifolio li + li {   
+    margin-top: 1rem;
+  }*/
+
+  /*.portifolio img {
+    border-radius: 30px;
+  }*/
+
+
+  
+  .mp {
+    max-width: 500px;
+    margin: 1rem auto;
+  }
+
+  .mp ul{
+    margin-top: 3rem;
+  }
+ 
+  .mp li {
+    font-size: 16px;
+    text-align: left;
+    list-style-type: disc;
+  }
+  
+  .atendimento p {
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .atendimento h4 {
+    font-size: 14px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin: 0%;
+    padding: 2px;
+  }
+ 
+  .copyright {
+    font-family: helvetica;
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 20px white;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  @media (max-width: 600px) {
+    body {
+    background-attachment: initial;
+    background-size: contain;
+    background-color: #565555;
+    }
+  .box {
+    box-shadow: 1px 1px 18px #ebc8b2;
+    padding: 2rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+    }
+  .box:first-child {
+    padding: 1rem;
+    margin-top: 5rem;
+    }
+  .portifolio ul {
+    margin-top: 1rem;
+    }
+  .portifolio li {
+    grid-template-columns: 1fr;
+    justify-items: left;
+    }
+  .portifolio li div {
+    max-width: 448px;
+    }
+  
+  
+  .copyright {
+    font-size: 18px;
+    color: #ffffff;
+    text-shadow: 2px 2px 16px black;
+    margin: 0;
+    padding: 1rem 0;
+    }
+  }
+  
